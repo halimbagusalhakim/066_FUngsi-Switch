@@ -24,6 +24,7 @@ float pengurangan (float a, float b){
 
 int main(){
     int pilihan;
+    
 
     do{
         cout << "==============" << endl;
@@ -59,6 +60,10 @@ int main(){
             break;
 
         case 5:
+            break;
+        
+        default:
+            cout << "pilihan tidak ada" << endl;
             break;
             
         
