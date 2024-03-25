@@ -42,21 +42,26 @@ int main(){
         case 1:
             input();
             cout << "Hasil penjumlahan = " << penjumlahan(bilSatu, bilDua) << endl;
+            system("pause");
             break;
-
+            
         case 2:
             input();
             cout << "Hasil perkalian = " << perkalian(bilSatu, bilDua) << endl;
+            system("pause");
             break;
+            
         
         case 3:
             input();
             cout << "Hasil pembagian = " << pembagian(bilSatu, bilDua) << endl;
+            system("pause");
             break;
 
         case 4:
             input();
             cout << "Hasil pengurangan = " << pengurangan(bilSatu, bilDua) << endl;
+            system("pause");
             break;
 
         case 5:
@@ -64,10 +69,12 @@ int main(){
         
         default:
             cout << "pilihan tidak ada" << endl;
+            system("pause"); 
             break;
             
         
         
         }
+    system("CLS");
     }while (pilihan != 5);
 }
