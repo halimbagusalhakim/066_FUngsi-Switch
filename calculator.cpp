@@ -43,6 +43,10 @@ int main(){
             cout << "Hasil penjumlahan = " << penjumlahan(bilSatu, bilDua) << endl;
             break;
 
+        case 2:
+            input();
+            cout << "Hasil perkalian = " << perkalian(bilSatu, bilDua) << endl;
+            break;
         
         }
     }while (pilihan != 5);
