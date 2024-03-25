@@ -57,6 +57,11 @@ int main(){
             input();
             cout << "Hasil pengurangan = " << pengurangan(bilSatu, bilDua) << endl;
             break;
+
+        case 5:
+            break;
+            
+        
         
         }
     }while (pilihan != 5);
