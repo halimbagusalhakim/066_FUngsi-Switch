@@ -36,5 +36,14 @@ int main(){
         cout << "masukan pilihan 1/2/3/4/5" << endl;
         cin >> pilihan;
          
-    }
+        switch (pilihan)
+        {
+        case 1:
+            input();
+            cout << "Hasil penjumlahan = " << penjumlahan(bilSatu, bilDua) << endl;
+            break;
+
+        
+        }
+    }while (pilihan != 5);
 }
